@@ -124,7 +124,7 @@ function GenerationalPokemonCounts() {
         displayEmpty
         style={{ marginBottom: "30px", fontSize: "1.5em" }} // 1.5 times bigger font size
       >
-        {[1, 2, 3, 4, 5, 6, 7, 8].map(gen => (
+        {[1, 2, 3, 4, 5, 6, 7].map(gen => (
           <MenuItem key={gen} value={gen} style={{ fontSize: "1.5em" }}>
             Generation {gen}
           </MenuItem>
