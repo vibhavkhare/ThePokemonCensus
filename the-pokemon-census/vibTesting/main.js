@@ -36,7 +36,7 @@ const typeColors = {
 const pie = d3.pie().value(d => d.count);
 const arc = d3.arc().innerRadius(0).outerRadius(radius);
 
-// Tooltip setup
+//Tooltip setup
 const tooltip = d3.select("body")
     .append("div")
     .attr("class", "tooltip")
