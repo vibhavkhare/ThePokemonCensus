@@ -75,7 +75,7 @@ function GenerationalPokemonCounts() {
         .attr("d", arc)
         .attr("fill", d => typeColors[d.data.type.toLowerCase()] || "#ccc")
         .attr("stroke", "white")
-        .style("stroke-width", "3px") //  times bigger stroke width
+        .style("stroke-width", "3px") // 1.5 times bigger stroke width
         .on("mouseover", function(event, d) {
           const type = d.data.type.toLowerCase();
           const imageUrl = `/img/${type}.png`;
